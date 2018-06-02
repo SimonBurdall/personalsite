@@ -2,10 +2,10 @@
 function getTitle(){
 	//Random quotes array.
 		var quotes = [
-			'love coding in JavaScript!',
-			'have an eye for CSS!',
-			'enjoy coding',
-			'really wish that this would work!',
+			'I love coding in JavaScript!',
+			'I have an eye for CSS!',
+			'I enjoy coding',
+			'I really wish that this would work!',
 			'できます！ means it works!'
 		];
 
@@ -14,7 +14,7 @@ function getTitle(){
 		var	randomQuote = quotes[getQuote];
 
 		//Output
-		document.getElementById("title-output").innerHTML = "Hello, my name is Simon and I "+randomQuote+"";
+		document.getElementById("title-output").innerHTML = "Hello, my name is Simon and "+randomQuote+"";
 };
 
 //Load function on pade load.

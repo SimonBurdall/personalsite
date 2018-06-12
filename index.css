@@ -20,36 +20,6 @@ body {
     margin: auto;
 }
 
-.navi-ul{
-    font-size: 25px;
-    text-align: right;
-    list-style-type: none;
-
-    margin: 0;
-    padding: 0;
-    padding-left: 0px;
-    }
-
-.navi-li{
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-
-    display: inline-block;
-}
-
-.navi-li a{
-    display: inline-block;
-    padding: 20px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-.navi-li a:hover {
-    background-color: #111;
-}
-
 .head-container {
     max-width: 960px;
     padding-top: 100px;
@@ -143,7 +113,7 @@ i {
     margin: auto;
 }
 
-.bio-content{
+.content{
     padding: 45px;
 }
 
@@ -161,15 +131,6 @@ i {
     border-radius: 50%;
     border-color: orange;
     border-style: solid;
-}
-
-.contact-content{
-    padding: 45px;
-    text-align: center;
-}
-
-.additional-projects{
-    padding: 45px;
 }
 
 .footer-wrapper{

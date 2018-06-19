@@ -143,3 +143,14 @@ i {
     margin: auto;
     color: white;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul img {
+    width: 5em;
+    height: 5em;
+    margin-right: 1em;
+}

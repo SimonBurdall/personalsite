@@ -134,14 +134,20 @@ i {
 }
 
 .footer-wrapper{
+    max-width: 960px;
+    height: 100px;
     background-color: black;
 }
 
-.footer{
-    max-width: 960px;
+.footer-left{
+    float: left;
     padding: 0px 45px 0px;
-    margin: auto;
     color: white;
+}
+
+.footer-right{
+    float: right;
+    padding: 0px 45px 0px;
 }
 
 ul {
@@ -154,3 +160,23 @@ ul img {
     height: 5em;
     margin-right: 1em;
 }
+
+.project-thumbnail1{
+    height: 150px;
+    width: 250px;
+    background-color: purple;
+    margin: 1px;
+    display: inline-block;
+}
+
+.content1{
+    width: 100%;
+   
+}
+
+.portfolio-wrapper{
+    background-color: orange;
+    height: 100%;
+    padding: 10px;
+}
+

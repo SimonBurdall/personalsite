@@ -42,6 +42,43 @@ body {
     color: #CC6600;
 }
 
+.site-navigation{
+    max-width: 960px;
+    overflow: hidden;
+}
+
+.site-left{
+    float: left;
+}
+
+.site-right{
+    float: right;
+}
+
+.navi-ul{
+    font-size: 20px;
+    text-align: right;
+
+    margin: 0;
+    padding: 0;
+    padding-left: 0px;
+}
+
+.navi-li{
+    display: inline-block;
+}
+
+.navi-li a{
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navi-li a:hover {
+    background-color: #111;
+}
+
 .portfolio-thumbnail-row{
     display: flex;
     flex-wrap: wrap;
@@ -111,10 +148,6 @@ body {
     background-size: cover;
 }
 
-.skills-content{
-    padding: 45px;
-}
-
 .footer-wrapper{
     background-color: black;
 }
@@ -128,10 +161,10 @@ body {
 
 ul {
     list-style: none;
-    display: flex;
-}
+    }
 
 ul img {
+    display: inline-block;
     width: 5em;
     height: 5em;
     margin-right: 1em;

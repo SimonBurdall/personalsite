@@ -32,14 +32,7 @@ body {
     margin-top: 60px;
     height: 350px;
     width: 350px;
-}
-
-.header-pull-jptext {
-    width: 25px;
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: -320px;
-    margin-left: 245px;
+    display: flex;
 }
 
 #title-output {
@@ -49,40 +42,25 @@ body {
     color: #CC6600;
 }
 
-.toaster-pop{
-    text-align: center;
-    margin-top: -145px;
-    padding: 0px 30px 30px;
-}
-
-i {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 5px;
-}
-
-.arrowdown {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
-
-.project-thumbnail-row{
+.portfolio-thumbnail-row{
     display: flex;
     flex-wrap: wrap;
-    padding: 0px;
+    justify-content: center;
+    padding: 5px;
     margin-left: 0;
     margin-right: 0;
+    background-color: lightgrey;
 }
 
-.project-thumbnail{
-    flex: 0 0 25%;
+.portfolio-thumbnail{
+    flex: 0 0 24%;
     height: 230px;
+    margin: 5px;
     background-position: 50% 50%;
     background-size: cover;
 }
 
-.project-thumbnail-title{   
+.portfolio-thumbnail-title{   
     background-color: orange;
     display: inline-block;
     margin-top: 165px;
@@ -91,18 +69,20 @@ i {
 }
 
 @media only screen and (max-width: 1300px){
-.project-thumbnail{
-    flex: 0 0 50%;
+.portfolio-thumbnail{
+    flex: 0 0 48%;
     height: 230px;
+    margin: 5px;
     background-position: 50% 50%;
     background-size: cover;
 }
 }
 
 @media only screen and (max-width: 700px){
-.project-thumbnail{
-    flex: 0 0 100%;
+.portfolio-thumbnail{
+    flex: 0 0 99%;
     height: 230px;
+    margin: 5px;
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -117,20 +97,22 @@ i {
     padding: 45px;
 }
 
+.portfolio-container{
+    background-color: grey;
+    padding: 30px;
+    display: flex;
+}
+
+.portfolio-thumbnail-1{
+   width: 257px;
+    height: 230px;
+    margin: 5px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
 
 .skills-content{
     padding: 45px;
-}
-
-.lang{
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    display: inline-block;
-
-    border-radius: 50%;
-    border-color: orange;
-    border-style: solid;
 }
 
 .footer-wrapper{

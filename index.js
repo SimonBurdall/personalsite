@@ -1,21 +1,16 @@
-//Function grab random title text.
-function getTitle(){
-	//Random quotes array.
-		var quotes = [
-			'I love coding in JavaScript!',
-			'I have an eye for CSS!',
-			'I enjoy coding',
-			'I really wish that this would work!',
-			'できます！ means it works!'
-		];
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function navigationSticky() {
 
-		//Generate random number, and then pass that to the quote var.
-		var getQuote = [Math.floor(Math.random() * quotes.length)];
-		var	randomQuote = quotes[getQuote];
+// Get the header
+var header = document.getElementById("site-navigation");
 
-		//Output
-		document.getElementById("title-output").innerHTML = "Hello, my name is Simon and "+randomQuote+"";
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  if (window.pageYOffset > sticky) {
+    header.classList.add("site-navigation-sticky");
+  } else {
+    header.classList.remove("site-navigation-sticky");
+  }
 };
-
-//Load function on pade load.
-window.onload = getTitle;

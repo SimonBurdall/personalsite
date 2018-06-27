@@ -43,15 +43,17 @@ body {
     color: #CC6600;
 }
 
-#site-navigation{
-    max-width: 960px;
+.site-ui{
     overflow: hidden;
     background-color: pink;
+    width: 100%;
+    top: 0;
 }
 
 .site-navigation-sticky{
     position: fixed;
     top: 0;
+    box-shadow: 0 0 10px black;
 }
 
 .site-left{

@@ -28,11 +28,8 @@ body {
 }
 
 .logo-icon {
-    border-radius: 50%;
-    background-color: white;
-    margin-top: 60px;
+    background-color: red;
     height: 350px;
-    width: 350px;
     display: flex;
 }
 
@@ -56,11 +53,11 @@ body {
     box-shadow: 0 0 10px black;
 }
 
-.site-left{
+.site-navi-left{
     float: left;
 }
 
-.site-right{
+.site-navi-right{
     float: right;
 }
 
@@ -155,6 +152,16 @@ body {
     margin: 5px;
     background-position: 50% 50%;
     background-size: cover;
+}
+
+.site-contact-left{
+    float: left; 
+    height: 100%;
+    margin: 0;
+}
+
+.site-contact-right{
+    margin: 0;
 }
 
 .footer-wrapper{

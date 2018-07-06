@@ -10,16 +10,16 @@
 	<header id="home" class="header-wrapper" style="background-image: url(images/ph-bk.png);">
 		<div class="head-container">
 			<!--<h1 id="title-output"></h1>-->
-			<h1>Simon Burdall</h1>
-			<h2>Web Designer</h2>
+			<h1 class="head-title">Simon Burdall</h1>
+			<h2 class="head-title">Web Designer</h2>
 		</div>
 	</header>
 
 	<div class="site-navigation" id="site-navi-ui">
-		<div class="site-navi-left">
+		<div class="site-float-left">
 			<h2 style="margin-left: 45px;">Currentselection</h2>
 		</div>
-		<div class="site-navi-right">
+		<div class="site-float-right">
 			<ul class="navi-ul">
 				<li class="navi-li"><a href="#home">Home</a></li>
 				<li class="navi-li"><a href="#portoflio">Portoflio</a></li>
@@ -102,27 +102,22 @@
 
 		<div id="contact" class="content">
 			<h1>Contact Me</h1>
-			<div class="site-contact-left">
-				<form action="/action_page.php">
-					<label for="fName">First Name</label>
-					<input type="input" name="fName" name="Firstname" placeholder="Your name...">
+				<form id="contact-form" action="/action_page.php">
+					<label for="fName">Name</label>
+					<input type="input" name="name" placeholder="Full name...">
 					</br>
-					<label for="fName">Last Name</label>
-					<input type="input" name="lName" name="Lastname" placeholder="Your surname...">
-					</br>
-					<label for="fName">Company Name</label>
-					<input type="input" name="cName" name="Companyname" placeholder="Company name if applicable...">
+					<label for="mailAdd">Your E-mail Address</label>
+					<input type="input" name="mail" placeholder="Your e-mail...">
 					</br>
 					<label for="subject">Subject</label>
-					<input type="input" name="eSubject"  name="subject" placeholder="Enter subject...">
+					<input type="input" name="subject" placeholder="Enter subject...">
 					</br>
 					<label for="Message">Message</label>
 					<textarea id="message" name="message" placeholder="Write your message..." style="height:200px"></textarea>
-					<input type="submit" value="Submit">
+					<input type="submit" name="submit">
   				</form>
-  			</div>
 
-  			<div class="site-contact-right">
+  			<div class="site-float-right">
   				<img class="logo-icon" src="images/logo.png">
   			</div>
 		</div>

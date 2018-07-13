@@ -10,16 +10,16 @@
 	<header id="home" class="header-wrapper" style="background-image: url(images/ph-bk.png);">
 		<div class="head-container">
 			<!--<h1 id="title-output"></h1>-->
-			<h1 class="head-title">Simon Burdall</h1>
-			<h2 class="head-title">Web Designer</h2>
+			<h1>Simon Burdall</h1>
+			<h2>Web Designer</h2>
 		</div>
 	</header>
 
 	<div class="site-navigation" id="site-navi-ui">
-		<div class="site-float-left">
+		<div class="site-navi-left">
 			<h2 style="margin-left: 45px;">Currentselection</h2>
 		</div>
-		<div class="site-float-right">
+		<div class="site-navi-right">
 			<ul class="navi-ul">
 				<li class="navi-li"><a href="#home">Home</a></li>
 				<li class="navi-li"><a href="#portoflio">Portoflio</a></li>
@@ -88,6 +88,12 @@
 		<div id="what-do" class="content">
 			<h1>What do I Know?</h1>
 			<p>Test text.</p>
+
+			<div class="content-float-left">Left Stuff</div>
+			<div class="content-float-left">Middle Stuff</div>
+			<div class="content-float-left">Right Stuff</div>
+ 			<br style="clear: left;" />
+			
 			<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
 			<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
 		</div>
@@ -102,22 +108,27 @@
 
 		<div id="contact" class="content">
 			<h1>Contact Me</h1>
-				<form id="contact-form" action="/action_page.php">
-					<label for="fName">Name</label>
-					<input type="input" name="name" placeholder="Full name...">
+			<div class="site-contact-left">
+				<form action="/action_page.php">
+					<label for="fName">First Name</label>
+					<input type="input" name="fName" name="Firstname" placeholder="Your name...">
 					</br>
-					<label for="mailAdd">Your E-mail Address</label>
-					<input type="input" name="mail" placeholder="Your e-mail...">
+					<label for="fName">Last Name</label>
+					<input type="input" name="lName" name="Lastname" placeholder="Your surname...">
+					</br>
+					<label for="fName">Company Name</label>
+					<input type="input" name="cName" name="Companyname" placeholder="Company name if applicable...">
 					</br>
 					<label for="subject">Subject</label>
-					<input type="input" name="subject" placeholder="Enter subject...">
+					<input type="input" name="eSubject"  name="subject" placeholder="Enter subject...">
 					</br>
 					<label for="Message">Message</label>
 					<textarea id="message" name="message" placeholder="Write your message..." style="height:200px"></textarea>
-					<input type="submit" name="submit">
+					<input type="submit" value="Submit">
   				</form>
+  			</div>
 
-  			<div class="site-float-right">
+  			<div class="site-contact-right">
   				<img class="logo-icon" src="images/logo.png">
   			</div>
 		</div>

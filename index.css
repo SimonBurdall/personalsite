@@ -4,13 +4,6 @@ body {
     margin: 0;
 }
 
-#particles-js{
-    height: 500px;
-    width: 100%;
-    position: absolute;
-
-}
-
 .header-wrapper {
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -23,14 +16,8 @@ body {
 
 .head-container {
     max-width: 960px;
-    padding-top: 100px;
+    padding-top: 1px;
     margin: auto;
-}
-
-.logo-icon {
-    background-color: red;
-    height: 350px;
-    display: flex;
 }
 
 #title-output {
@@ -53,11 +40,11 @@ body {
     box-shadow: 0 0 10px black;
 }
 
-.site-navi-left{
+.site-float-left{
     float: left;
 }
 
-.site-navi-right{
+.site-float-right{
     float: right;
 }
 
@@ -76,7 +63,7 @@ body {
 
 .navi-li a{
     display: inline-block;
-    padding: 22px;
+    padding: 23px;
     text-align: center;
     text-decoration: none;
 }
@@ -104,11 +91,10 @@ body {
 }
 
 .portfolio-thumbnail-title{   
-    background-color: orange;
     display: inline-block;
     margin-top: 165px;
-    margin-left: 10px;
-    padding: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1300px){
@@ -140,33 +126,23 @@ body {
     padding: 45px;
 }
 
-.portfolio-container{
-    background-color: grey;
-    padding: 30px;
+.content-float-left{
+    margin: auto; 
+    max-width: 660px;
+}
+
+.logo-icon {
+    height: 350px;
     display: flex;
+    margin-top: -340px
 }
 
-.portfolio-thumbnail-1{
-   width: 257px;
-    height: 230px;
-    margin: 5px;
-    background-position: 50% 50%;
-    background-size: cover;
+@media only screen and (max-width: 700px){
+.logo-icon {
+    height: 0px;
+    display: flex;
+    margin-top: -340px
 }
-
-.what-do-icons{
-    float: left; 
-    width: 200px;}
-
-.site-contact-left{
-    float: left; 
-    width: 50%;
-    height: 100%;
-    margin: 0;
-}
-
-.site-contact-right{
-    margin: 0;
 }
 
 .footer-wrapper{
@@ -186,15 +162,8 @@ ul {
 
 ul img {
     display: inline-block;
-    width: 5em;
-    height: 5em;
-    margin-right: 1em;
     float: left;
+    width: 4em;
+    height: 4em;
+    margin-right: 1em;
 }
-
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box;

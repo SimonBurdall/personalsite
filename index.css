@@ -65,15 +65,15 @@ body {
 
 .site-float-right{
     float: right;
+    height: 0px;
 }
 
 
-#navi-toggle-menu{
+.navi-toggle-menu{
+    height: 0px;
+    width: 0px;
     display: hidden;
-    width: 40px;
-    height: 40px;
-    background-color: red;
-}
+ }
 
 .navi-ul{
     font-size: 20px;
@@ -100,28 +100,33 @@ body {
 }
 
 @media only screen and (max-width: 1050px){
-#navi-toggle-menu{
+.navi-toggle-menu{
     display: inline-block;
-
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    background-color: red;
 }
 
 .nav-ul{
-    display: none;
-    position: absolute;
-    padding: 20px;
-    background: #fff;
-    border: 5px solid #444;
-    right: 20px;
-    top: 60px;
-    width: 50%;
-    border-radius: 4px 0 4px 4px;
+    font-size: 20px;
+    text-align: right;
+
+    margin: 0;
+    padding: 0;
+    padding-left: 0px;
 }
 
 .navi-li{
+    display: none;
     text-align: center;
     width: 100%;
     padding: 10px 0;
     margin: 0;
+}
+
+.nav-content:hover .navi-ul{
+    display: block;
 }
 }
 

@@ -48,7 +48,7 @@ body {
 
 .site-navigation{
     overflow: hidden;
-    background-color: pink;
+    background-color: #BCA3AC;
     width: 100%;
     top: 0;
 }
@@ -105,7 +105,18 @@ body {
     margin-right: 10px;
     width: 70px;
     height: 70px;
-    background-color: red;
+    background-color: #E5CEDC;
+}
+
+.navi-content{
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
 }
 
 .nav-ul{
@@ -118,18 +129,16 @@ body {
 }
 
 .navi-li{
-    display: none;
     text-align: center;
     width: 100%;
     padding: 10px 0;
     margin: 0;
 }
 
-.nav-content:hover .navi-ul{
+.site-float-right:hover .navi-content {
     display: block;
 }
 }
-
 
 .portfolio-thumbnail-row{
     display: flex;
@@ -138,7 +147,7 @@ body {
     padding: 5px;
     margin-left: 0;
     margin-right: 0;
-    background-color: lightgrey;
+    background-color: #F3EAF4;
 }
 
 .portfolio-thumbnail{
@@ -185,9 +194,23 @@ body {
     padding: 45px;
 }
 
-.content-float-left{
-    margin: auto; 
-    max-width: 660px;
+.inner-wrapper-content{
+    display: block;
+    height: 100%;
+    text-align: center;
+}
+
+.inner-icon{
+    display: inline-block;
+    padding: 25px 0;
+    width: 100px;
+    height: 100px;
+}
+
+
+.content-lang{
+    height: 50px;
+    width: 50px;
 }
 
 .logo-icon {
@@ -219,10 +242,10 @@ ul {
     list-style: none;
     }
 
-ul img {
+/*ul img {
     display: inline-block;
     float: left;
     width: 4em;
     height: 4em;
     margin-right: 1em;
-}
+}*/

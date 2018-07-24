@@ -1,6 +1,10 @@
+This is the contact.php file!
 <?php
 
 if (isset($_POST['submit'])) {
+
+	die(var_dump($_POST));
+
 	$name= $_POST['name'];
 	$subject= $_POST['subject'];
 	$mailFrom= $_POST['mail'];
@@ -14,4 +18,4 @@ if (isset($_POST['submit'])) {
 	header("index.php?mailsent");
 
 }
-?>
+/?>

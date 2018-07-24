@@ -204,9 +204,20 @@ body {
     display: inline-block;
     padding: 25px 0;
     width: 100px;
-    height: 100px;
 }
 
+.inner-icon a{
+    width: 100px;
+    height: 100px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 25px 0;
+}
+
+.fab{
+    font-size: 50px;
+    color: black;
+}
 
 .content-lang{
     height: 50px;
